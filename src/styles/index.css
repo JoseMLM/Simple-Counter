@@ -1,12 +1,32 @@
-
-/* 
-
-    You can write your own styles here...
+#main-container{
+    background-color: black;
+    width: 600px;
+    height: 100px;
+    display: flex;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+}
+
+.digit {
+    background-color:#1a1919;
+    width: 60px;
+    height: 80px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+#clock {
+    background-color:#1a1919;
+    color: white;
+    display: flex;
+    width: 70px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
